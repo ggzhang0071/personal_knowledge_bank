@@ -4,7 +4,7 @@ import gradio as gr
 import sys
 import os
 os.chdir(r'D:\ai')  # 文件路径
-os.environ["OPENAI_API_KEY"] = '输入你的chatgpt的api'
+os.environ["OPENAI_API_KEY"] = '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'
 def construct_index(directory_path):
     max_input_size = 4096
     num_outputs = 2000
